@@ -1,1 +1,1 @@
-### The code will be released around 20 Nov, 2019.
+### The code will be released on Nov 20, 2019.
