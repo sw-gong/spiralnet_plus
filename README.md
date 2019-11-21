@@ -1,1 +1,1 @@
-### The code will be released on Nov 20, 2019.
+### The code will be released within *this week* (- Nov 24, 2019).
