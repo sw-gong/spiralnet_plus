@@ -1,1 +1,1 @@
-### The code will be released within *this week* (- Nov 24, 2019).
+### Applogies for the delay. The code will be released soon within this week.
