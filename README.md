@@ -19,7 +19,7 @@ python -m reconstruction.main
 ```
 
 ## Data
-To use your own data, you have to provide at least:
+To create your own dataset, you have to provide data attributes at least:
 - `data.x`: Node feature matrix with shape `[num_nodese, num_node_features]` and type `torch.float`.
 - `data.edge_index`: Graph connectivity in COO format with shape `[2, num_edges]` and type `torch.long`.
 
