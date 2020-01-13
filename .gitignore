@@ -1,0 +1,9 @@
+classification/
+__pycache__/
+**/out/
+
+data/*
+!data/CoMA/
+
+data/CoMA/*
+!data/CoMA/template/
