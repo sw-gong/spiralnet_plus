@@ -28,6 +28,7 @@ The code is developed using Python 3.6 on Ubuntu 16.04. The models were trained 
 * [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric) (1.3.0)
 * [OpenMesh](https://github.com/nmaxwell/OpenMesh-Python) (1.1.3)
 * [MPI-IS Mesh](https://github.com/MPI-IS/mesh): We suggest to install this library from the source.
+* [tqdm](https://github.com/tqdm/tqdm)
 
 ## 3D Shape Correspondence on FAUST
 ```
