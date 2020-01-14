@@ -1,6 +1,7 @@
 classification/
 __pycache__/
 **/out/
+INPUT.md
 
 data/*
 !data/CoMA/
