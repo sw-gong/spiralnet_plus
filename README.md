@@ -15,7 +15,7 @@ Install [MPI-IS/mesh](https://github.com/MPI-IS/mesh) for generating down- and u
 python -m correspondence.main
 ```
 
-## 3D Shape Reconstruction on FAUST
+## 3D Shape Reconstruction on CoMA
 ```
 python -m reconstruction.main
 ```
