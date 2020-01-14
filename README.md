@@ -5,6 +5,8 @@ SpiralNet++ is a general-purpose deep neural network for 3D triangular meshes, w
 Note that the dataset of [4DFAB](https://arxiv.org/abs/1712.01443) used for evaluating classification performance in this paper has not yet been released. We will open source our code immediately once the dataset is publicly accessible. However, it should be easy to develop a shape classification model with our framework. Feel free to raise issues if you meet problems when applying SpiralNet++ to your classification models.
 
 ## Installation
+The code is developed using Python 3.6 on Ubuntu 16.04. The models were trained and tested using NVIDIA 2080 Ti. Other platforms or GPU cards are not fully tested.  
+
 ```bash
 pyhon install -r requirements.txt
 ```
