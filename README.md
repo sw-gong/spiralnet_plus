@@ -37,7 +37,7 @@ python -m correspondence.main
 ```
 
 ## 3D Face Reconstruction on CoMA
-<p align="center"><img src="svgs/reconstruction.png" align=middle height=200pt/></p>
+<p align="center"><img src="svgs/reconstruction.png" align=middle/></p>
 
 To reproduce the experiment in our paper, you can simply run the script below. In our paper, we only show results of the *Interpolation Experiments* as described in the [paper](https://arxiv.org/abs/1807.10267). However, you can also run experiments under the *Extrapolation Experiment* setting by defining the variable ``split`` of ``extrapolation`` or ``interpolation``. Note that you need to set a test expression (``test_exp``) if performing extrapolation experiment.
 ```
