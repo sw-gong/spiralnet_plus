@@ -54,9 +54,4 @@ def extract_spirals(mesh, seq_length, dilation=1):
                                return_distance=False).tolist()
             spiral = [item for subspiral in spiral for item in subspiral]
         spirals.append(spiral[:seq_length * dilation][::dilation])
-    # if dilation > 1:
-    #     dilated_spirals = []
-    #     for i in range(len(spirals)):
-    #         dilated_spirals.append(spirals[i][::dilation])
-    #     spirals = dilated_spirals
     return spirals

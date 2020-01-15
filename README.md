@@ -5,6 +5,7 @@ SpiralNet++ is a general-purpose deep neural network for 3D triangular meshes, w
 Note that the dataset of [4DFAB](https://arxiv.org/abs/1712.01443) used for evaluating classification performance in this paper has not yet been released. We will open source our code immediately once the dataset is publicly accessible. However, it should be easy to develop a shape classification model with our framework. Feel free to raise issues if you meet problems when applying SpiralNet++ to your problems.
 
 ## SpiralConv
+<p align="center"><img src="svgs/spiral.png" align=right height=200pt/></p>
 SpiralConv is defined in an equivalent manner to the euclidean CNNs by utilizing the nature of the *fixed* spiral serialization of neighboring vertices. We define it as:
 <p align="center"><img src="svgs/a9e11ad58a629e9fb55045f0ac158a64.svg" align=middle width=197.04795pt height=49.131389999999996pt/></p>
 
