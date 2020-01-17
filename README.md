@@ -27,7 +27,7 @@ The real magic of our implemtation happens in the body of ``reconstruction.netwo
 The code is developed using Python 3.6 on Ubuntu 16.04. The models were trained and tested with NVIDIA 2080 Ti.
 * [Pytorch](https://pytorch.org/) (1.3.0)
 * [Pytorch Geometric](https://github.com/rusty1s/pytorch_geometric) (1.3.0)
-* [OpenMesh](https://github.com/nmaxwell/OpenMesh-Python) (1.1.3)
+* [OpenMesh](https://www.graphics.rwth-aachen.de:9000/OpenMesh/openmesh-python) (1.1.3)
 * [MPI-IS Mesh](https://github.com/MPI-IS/mesh): We suggest to install this library from the source.
 * [tqdm](https://github.com/tqdm/tqdm)
 
