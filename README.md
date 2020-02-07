@@ -6,7 +6,7 @@ Note that the dataset of [4DFAB](https://arxiv.org/abs/1712.01443) used for eval
 
 ## SpiralConv
 <p align="center"><img src="svgs/spiral.png" align=right height=200pt/></p>
-SpiralConv is defined in an equivalent manner to the euclidean CNNs by utilizing the nature of the *fixed* spiral serialization of neighboring vertices. We define it as:
+SpiralConv is defined in an equivalent manner to the euclidean CNNs by utilizing the nature of the **fixed** spiral serialization of neighboring vertices. We define it as:
 <p align="center"><img src="svgs/a9e11ad58a629e9fb55045f0ac158a64.svg" align=middle width=197.04795pt height=49.131389999999996pt/></p>
 
 where <img src="svgs/11c596de17c342edeed29f489aa4b274.svg" align=middle width=9.388665000000001pt height=14.102549999999994pt/> denotes MLPs and <img src="svgs/f2d94cd21b8f8c1c0d6e60b36522ae2e.svg" align=middle width=8.188554000000002pt height=24.56552999999997pt/> is the concatenation operation. Note that we concatenate node features in the spiral sequence following the order defined in <img src="svgs/524d74b8294edeb6931ea94a8ea50f24.svg" align=middle width=39.977025pt height=24.56552999999997pt/>.
