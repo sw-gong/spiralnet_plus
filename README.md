@@ -20,7 +20,7 @@ In the experiments of facial expression classification and face reconstruction, 
 
 where the *sparse* sampling matrix <img src="svgs/9180e00e196978aa798f62467e585afa.svg" align=middle width=80.2329pt height=30.950700000000015pt/> and node feature matrix <img src="svgs/281195f9409164ae6087fe6f0131dcb6.svg" align=middle width=98.84704500000001pt height=27.598230000000008pt/>.
 
-The real magic of our implemtation happens in the body of ``reconstruction.network.Pool``.  Here, we need to perform batch matrix multiplication on GPU w.r.t the sampling operation described above. Because dense matrix multiplication is really slow, we implement **sparse batch matrix multiplication** via scattering add node feature vectors corresponds to *cluster nodes* across a batch of input node feature matrices.
+The real magic of our implemtation happens in the body of ``reconstruction.network.Pool``.  Here, we need to perform batch matrix multiplication on GPU w.r.t the sampling operation described above. Because dense matrix multiplication is really slow, we implement **batch sparse dense matrix multiplication** via scattering add node feature vectors corresponds to *cluster nodes* across a batch of input node feature matrices.
 
 ## Installation
 
